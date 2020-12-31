@@ -1,0 +1,43 @@
+/* div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+} */
+
+.container {
+    display: flex;
+}
+
+.grid {
+    width: 200px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start; /* 取消子元素之间的间隙，并把子元素放在容器顶部。*/
+    background-color: bisque;
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+    /* background-color: darksalmon; */
+}
+
+.mini-grid {
+    margin-left: 20px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start; /* 取消子元素之间的间隙，并把子元素放在容器顶部。*/
+    background-color: bisque;
+}
+
+.mini-grid div {
+    width: 20px;
+    height: 20px;
+}
+
+.tetromino {
+    background-color: lightgray;
+}
